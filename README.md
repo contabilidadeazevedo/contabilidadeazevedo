@@ -1,16 +1,71 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidade Azevedo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          
 
-<!--
-**contabilidadeazevedo/contabilidadeazevedo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+               <div style="text-align: left; "  >  
+
+            <img src="C:\Users\Meu Computador\Documents\Trabalho\Projeto Site\Landing page\Logo dourado.png" style= "width: 300px; height: auto; alt="Logo Contabilidade Azevedo>"
+
+        
+        </div>
+
+        <div>
+
+            <div style="color: black;  position: absolute; top: 150px; left: 500px; font-weight:300 ">
+            <h1 >Contabilidade Personalizada, na medida que você precisa</h1>
+            <p> Somos especialistas em Contabilidade, que impulsionam o seu negócio ao crescimento</p> 
+        </div>
+        </div>
+        
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Atendimento expresso, direto com quem entende</h1>
+            <p>Chame no WhatsApp e tenha retorno rápido</p>
+            
+            
+<button class="cta" onclick="window.open('https://wa.me/5546991011692', '_blank')">
+  Fale conosco no WhatsApp
+</button>
+
+            
+            
+            
+            
+
+            </a>
+        </section>
+        <section class="servicos">
+            <h2>O que oferecemos:</h2>
+            <ul>
+                <li>Abertura, Alteração, Encerramento</li>
+                <li>Regularizações da empresa</li>
+                <li>Garantia de conformidade fiscal</li>
+                <li>Consultoria para seu negócio</li>
+            </ul>
+        </section>
+        <section class="chamada">
+            <h2>Deixe que cuidemos da sua contabilidade</h2>
+            <p>Nossos especialistas estão aqui para ajudar</p>
+            <!-- <button class="cta">Fale conosco no WhatsApp</button> -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Contabilidade Azevedo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
