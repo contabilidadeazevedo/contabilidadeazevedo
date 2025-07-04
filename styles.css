@@ -75,6 +75,18 @@ header nav img {
 
 /* Responsividade */
 @media (max-width: 768px) {
+ nav img  {
+   width: 200px;
+   max-width: 80%;
+ }
+  
+.colunas{
+  flex-direction: column;
+  align-items: stretch;
+}
+
+  
+  
   header {
     padding: 40px 20px;
     text-align: center;
