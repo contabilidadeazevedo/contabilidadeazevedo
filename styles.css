@@ -8,7 +8,6 @@ body {
 }
 
 header {
-  /* background-color: #1f2f4f; */
   background-color: #fffdfd;
   padding: 90px;
   text-align: center;
@@ -72,8 +71,10 @@ header nav img {
 .chamada h2 {
   font-size: 24px;
   margin-bottom: 20px;
+}
 
-  @media (max-width: 768px) {
+/* Responsividade */
+@media (max-width: 768px) {
   header {
     padding: 40px 20px;
     text-align: center;
@@ -110,10 +111,4 @@ header nav img {
     width: 80%;
     max-width: 200px;
   }
-}
-
-
-
-
-  
 }
