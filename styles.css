@@ -18,6 +18,14 @@ header nav img {
   height: auto;
 }
 
+.titulo-sobreposto {
+  color: black;
+  font-weight: 300;
+  margin: 16px 0;
+  background: none;
+  text-align: center;
+}
+
 .hero {
   background-image: linear-gradient(to bottom, #1f2f4f, #2f4f7f);
   padding: 100px;
@@ -73,54 +81,46 @@ header nav img {
   margin-bottom: 20px;
 }
 
-/* Responsividade */
+/* Responsividade aprimorada */
 @media (max-width: 768px) {
- nav img  {
-   width: 200px;
-   max-width: 80%;
- }
-  
-.colunas{
-  flex-direction: column;
-  align-items: stretch;
-}
-
-  
-  
   header {
-    padding: 40px 20px;
+    padding: 30px 10px;
     text-align: center;
   }
-
-  .hero {
-    padding: 60px 20px;
-  }
-
-  .hero h1 {
-    font-size: 24px;
-  }
-
-  .cta {
-    width: 100%;
-    font-size: 18px;
-    padding: 15px;
-  }
-
-  .servicos {
-    padding: 30px 20px;
-  }
-
-  .servicos h2,
-  .chamada h2 {
-    font-size: 20px;
-  }
-
-  .chamada {
-    padding: 30px 20px;
-  }
-
   nav img {
     width: 80%;
-    max-width: 200px;
+    max-width: 180px;
+    height: auto;
   }
+  .titulo-sobreposto {
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    margin: 16px 0;
+    color: #222 !important;
+    background: none !important;
+    text-align: center;
+  }
+  .hero {
+    padding: 40px 10px;
+  }
+  .hero h1 {
+    font-size: 20px;
+    word-break: break-word;
+  }
+  .cta {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+  .servicos {
+    padding: 20px 10px;
+  }
+  .servicos h2,
+  .chamada h2 {
+    font-size: 18px;
+  }
+  .chamada {
+    padding: 20px 10px;
+  }
 }
