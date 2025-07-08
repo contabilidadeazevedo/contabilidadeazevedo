@@ -19,7 +19,7 @@ header nav img {
 }
 
 .titulo-sobreposto {
-  color: #222 !important; /* Cor escura para desktop */
+  color: #222 !important; /* Preto escuro em qualquer tela */
   font-weight: 300;
   margin: 16px 0;
   background: none;
@@ -93,7 +93,7 @@ header nav img {
     height: auto;
   }
   .titulo-sobreposto {
-    color: #e0e0e0 !important; /* Cor clara para mobile */
+    /* Removido color daqui para manter preto em todos os dispositivos */
     position: static !important;
     left: auto !important;
     top: auto !important;
