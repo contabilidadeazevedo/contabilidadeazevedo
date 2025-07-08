@@ -19,7 +19,7 @@ header nav img {
 }
 
 .titulo-sobreposto {
-  color: black;
+  color: #222 !important; /* Cor escura para desktop */
   font-weight: 300;
   margin: 16px 0;
   background: none;
@@ -93,11 +93,11 @@ header nav img {
     height: auto;
   }
   .titulo-sobreposto {
+    color: #e0e0e0 !important; /* Cor clara para mobile */
     position: static !important;
     left: auto !important;
     top: auto !important;
     margin: 16px 0;
-    color: #222 !important;
     background: none !important;
     text-align: center;
   }
