@@ -1,4 +1,3 @@
-/* Estilo em modo escuro */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -9,26 +8,51 @@ body {
 
 header {
   background-color: #fffdfd;
-  padding: 90px;
+  padding: 90px 0 60px 0;
   text-align: center;
 }
 
-header nav img {
-  width: 100px;
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 0 16px;
+}
+
+.logo {
+  width: 190px;
+  max-width: 32vw;
+  min-width: 120px;
   height: auto;
+  flex-shrink: 0;
+  display: block;
 }
 
 .titulo-sobreposto {
-  color: #222 !important; /* Preto escuro em qualquer tela */
+  color: #222 !important;
   font-weight: 300;
-  margin: 16px 0;
+  margin: 0;
   background: none;
-  text-align: center;
+  text-align: left;
+  min-width: 220px;
+}
+
+.titulo-sobreposto h1 {
+  margin: 0 0 10px 0;
+  font-size: 2.0rem;
+}
+
+.titulo-sobreposto p {
+  margin: 0;
+  font-size: 1.08rem;
 }
 
 .hero {
   background-image: linear-gradient(to bottom, #1f2f4f, #2f4f7f);
-  padding: 100px;
+  padding: 100px 0;
   text-align: center;
   color: #ffffff94;
 }
@@ -52,7 +76,7 @@ header nav img {
 }
 
 .servicos {
-  padding: 50px;
+  padding: 50px 0;
 }
 
 .servicos h2 {
@@ -72,7 +96,7 @@ header nav img {
 
 .chamada {
   background-color: #1e1e1e;
-  padding: 50px;
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -82,24 +106,42 @@ header nav img {
 }
 
 /* Responsividade aprimorada */
+@media (max-width: 900px) {
+  .header-content {
+    gap: 16px;
+  }
+  .logo {
+    width: 140px;
+    max-width: 40vw;
+  }
+}
 @media (max-width: 768px) {
   header {
-    padding: 30px 10px;
-    text-align: center;
+    padding: 40px 0 24px 0;
   }
-  nav img {
-    width: 80%;
-    max-width: 180px;
-    height: auto;
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 0 5vw;
+  }
+  .logo {
+    width: 110px;
+    min-width: 70px;
+    margin-bottom: 5px;
+    max-width: 50vw;
   }
   .titulo-sobreposto {
-    /* Removido color daqui para manter preto em todos os dispositivos */
-    position: static !important;
-    left: auto !important;
-    top: auto !important;
-    margin: 16px 0;
-    background: none !important;
     text-align: center;
+    margin: 0;
+    min-width: unset;
+  }
+  .titulo-sobreposto h1 {
+    font-size: 1.2rem;
+  }
+  .titulo-sobreposto p {
+    font-size: 1rem;
   }
   .hero {
     padding: 40px 10px;
