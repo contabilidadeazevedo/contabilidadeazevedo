@@ -14,18 +14,19 @@ header {
 
 .header-content {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 32px;
-  flex-wrap: wrap;
-  text-align: left;
-  padding: 0 16px;
+  padding: 0 32px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
-  width: 190px;
-  max-width: 32vw;
-  min-width: 120px;
+  width: 220px;
+  max-width: 30vw;
+  min-width: 140px;
   height: auto;
   flex-shrink: 0;
   display: block;
@@ -106,15 +107,6 @@ header {
 }
 
 /* Responsividade aprimorada */
-@media (max-width: 900px) {
-  .header-content {
-    gap: 16px;
-  }
-  .logo {
-    width: 140px;
-    max-width: 40vw;
-  }
-}
 @media (max-width: 768px) {
   header {
     padding: 40px 0 24px 0;
@@ -122,9 +114,9 @@ header {
   .header-content {
     flex-direction: column;
     align-items: center;
-    text-align: center;
     gap: 10px;
     padding: 0 5vw;
+    text-align: center;
   }
   .logo {
     width: 110px;
